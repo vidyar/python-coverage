@@ -7,3 +7,4 @@ before_script: mkdir -p shippable/codecoverage
 script:
  - echo "Nothing to see here"
  - cp coverage.xml ./shippable/codecoverage
+archive: true
