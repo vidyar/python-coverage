@@ -3,7 +3,7 @@ python:
     
 language: python
 build_image: shippable/minv2
-before_script: mkdir -p shippable/codecoverage 
+before_script: mkdir -p ./shippable/codecoverage 
 script:
  - echo "Nothing to see here"
  - cp coverage.xml ./shippable/codecoverage
